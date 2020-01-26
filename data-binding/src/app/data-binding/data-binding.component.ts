@@ -9,6 +9,20 @@ export class DataBindingComponent implements OnInit {
 
   url: string = 'https://tavernawalker.com.br';
 
+  cursoAngular: boolean = true;
+
+  urlImagem = 'http://lorempixel.com/400/200/';
+
+  getValor(){
+
+    return 1;
+
+  }
+
+  getCurtirCurso(){
+    return true;
+  }
+
   constructor() { }
 
   ngOnInit() {
